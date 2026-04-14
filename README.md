@@ -40,11 +40,51 @@ Contoh input:
 Setelah 5 iterasi, estimasi akar yang didapat adalah x ≈ 1.5199
 dengan nilai f(1.5199) ≈ -0.008675 (mendekati 0).
 
-## Dependensi
+## Cara Menjalankan
 
-- Python 3
-- matplotlib
-- numpy
+### 1. Clone repo
+
+    git clone https://github.com/novldrsh/praktikumkomnum1.git
+
+### 2. Masuk folder
+
+    cd praktikumkomnum1
+
+### 3. Jalankan program
+
+    python3 praktikum1regulafalsi.py
+
+### 4. Input yang disarankan
+
+    x1 = 1
+    x2 = 2
+    iterasi = 5
+
+---
+
+## Contoh Output
+
+    ===========================================================================
+    Iterasi    x1           x2           x3           f(x3)
+    ===========================================================================
+    1          1.000000     2.000000     1.333333     -0.962963
+    2          1.333333     2.000000     1.462687     -0.333339
+    3          1.462687     2.000000     1.504019     -0.101818
+    4          1.504019     2.000000     1.516331     -0.029895
+    5          1.516331     2.000000     1.519919     -0.008675
+    ===========================================================================
+
+    [✓] Estimasi akar setelah 5 iterasi: x = 1.519919
+
+---
+
+## Dependensi (Yang Dibutuhkan)
+
+| Library    | Kegunaan                       | Cara Install                |
+|------------|--------------------------------|-----------------------------|
+| Python 3   | Bahasa pemrograman utama       | python.org/downloads        |
+| matplotlib | Menampilkan grafik             | pip3 install matplotlib     |
+| numpy      | Perhitungan matematika & array | Otomatis bersama matplotlib |
 
 
 
