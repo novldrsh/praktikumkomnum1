@@ -20,6 +20,33 @@ Program meminta user untuk memasukkan:
 Program akan menampilkan tabel iterasi di terminal dan grafik fungsi
 beserta proses iterasinya secara visual.
 
+## Hasil Kode
+
+### Import Library
+<img width="237" height="49" alt="Screenshot 2026-04-14 at 16 07 16" src="https://github.com/user-attachments/assets/780fba41-49f9-4db9-a2a1-d9ba7824ace8" />
+
+### Fungsi f(x)
+<img width="237" height="40" alt="Screenshot 2026-04-14 at 16 07 29" src="https://github.com/user-attachments/assets/7cecc75a-2136-4dff-88ec-32dcecd44935" />
+
+### Tampilan Judul
+<img width="438" height="105" alt="Screenshot 2026-04-14 at 16 07 49" src="https://github.com/user-attachments/assets/beef33fa-8397-4808-9914-9c15335d11a0" />
+
+### Input User
+<img width="438" height="52" alt="Screenshot 2026-04-14 at 16 08 00" src="https://github.com/user-attachments/assets/78581af2-d403-44ea-a52c-bc1859ac7067" />
+
+### Validasi
+<img width="496" height="62" alt="Screenshot 2026-04-14 at 16 08 17" src="https://github.com/user-attachments/assets/e575e741-9b7b-4635-a033-d4aec4e26e35" />
+
+### Proses Iterasi
+<img width="550" height="214" alt="Screenshot 2026-04-14 at 16 08 51" src="https://github.com/user-attachments/assets/673c71e9-5920-4ce8-8279-6a563df8fd0a" />
+
+### Hasil Akhir
+<img width="550" height="45" alt="Screenshot 2026-04-14 at 16 10 20" src="https://github.com/user-attachments/assets/2344464a-a3b9-4768-bb54-e5cd18008c38" />
+
+### Grafik
+<img width="592" height="364" alt="Screenshot 2026-04-14 at 16 11 12" src="https://github.com/user-attachments/assets/3f64748e-d290-4c57-ba16-aa1074275353" />
+
+
 ## Cara Menjalankan
 
 Pastikan Python 3 dan matplotlib sudah terinstall:
