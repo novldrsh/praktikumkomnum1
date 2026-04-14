@@ -1,2 +1,2 @@
-# praktikumkomnum1
+# praktikum - komnum1
 Praktikum Komputasi Numerik - Metode Regula Falsi
