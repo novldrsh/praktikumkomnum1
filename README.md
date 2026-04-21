@@ -23,32 +23,114 @@ beserta proses iterasinya secara visual.
 ## Hasil Kode
 
 ### Import Library
-<img width="237" height="49" alt="Screenshot 2026-04-14 at 16 07 16" src="https://github.com/user-attachments/assets/780fba41-49f9-4db9-a2a1-d9ba7824ace8" />
+
+<img width="231" height="38" alt="Screenshot 2026-04-21 at 19 27 23" src="https://github.com/user-attachments/assets/338ef75c-e0c7-4a09-b7e7-0c70ff253820" />
+
+* Memanggil dua toolkit yang dibutuhkan program. 
+* matplotlib untuk urusan grafik. 
+* numpy untuk urusan perhitungan matematika.
 
 ### Fungsi f(x)
-<img width="237" height="40" alt="Screenshot 2026-04-14 at 16 07 29" src="https://github.com/user-attachments/assets/7cecc75a-2136-4dff-88ec-32dcecd44935" />
 
-### Tampilan Judul
-<img width="438" height="105" alt="Screenshot 2026-04-14 at 16 07 49" src="https://github.com/user-attachments/assets/beef33fa-8397-4808-9914-9c15335d11a0" />
+<img width="231" height="35" alt="Screenshot 2026-04-21 at 19 27 37" src="https://github.com/user-attachments/assets/c880b96b-f04c-49c8-b910-24baa6334f36" />
+
+* Mendefinisikan persamaan matematika yang digunakan.
+* Setiap kali program perlu tahu nilai fungsi di titik tertentu, bagian ini yang dipanggil.
+
+### Judul Program
+
+<img width="429" height="89" alt="Screenshot 2026-04-21 at 19 27 54" src="https://github.com/user-attachments/assets/55b3b356-ddcc-4677-90e5-30ec5f03bb74" />
+
+* Menampilkan header program di terminal saat pertama dijalankan.
+* Biar tampilannya rapi dan informatif.
 
 ### Input User
-<img width="438" height="52" alt="Screenshot 2026-04-14 at 16 08 00" src="https://github.com/user-attachments/assets/78581af2-d403-44ea-a52c-bc1859ac7067" />
+
+<img width="405" height="52" alt="Screenshot 2026-04-21 at 19 28 15" src="https://github.com/user-attachments/assets/cacf8d72-01b0-46f0-bd05-c7e1c785bed4" />
+
+* Program meminta tiga informasi dari pengguna.
+* batas kiri, batas kanan, dan jumlah iterasi yang diinginkan.
 
 ### Validasi
-<img width="496" height="62" alt="Screenshot 2026-04-14 at 16 08 17" src="https://github.com/user-attachments/assets/e575e741-9b7b-4635-a033-d4aec4e26e35" />
 
-### Proses Iterasi
-<img width="550" height="214" alt="Screenshot 2026-04-14 at 16 08 51" src="https://github.com/user-attachments/assets/673c71e9-5920-4ce8-8279-6a563df8fd0a" />
+<img width="489" height="60" alt="Screenshot 2026-04-21 at 19 28 36" src="https://github.com/user-attachments/assets/672b2b38-2cd8-4b31-a397-143d38ebc387" />
+
+* Sebelum mulai menghitung, program mengecek apakah interval yang dimasukkan valid.
+* Kalau f(x1) dan f(x2) tandanya sama, tidak ada akar di situ dan program memberi peringatan.
+
+### Persiapan Iterasi
+
+<img width="789" height="96" alt="Screenshot 2026-04-21 at 19 29 12" src="https://github.com/user-attachments/assets/00ae05e7-bcf0-45e6-bdb6-de43868b6cab" />
+
+* Menyiapkan tempat penyimpanan data iterasi.
+* Menginisialisasi x3_lama sebagai None karena belum ada iterasi sebelumnya.
+* Lalu mencetak header tabel.
+
+### Loop Iterasi
+
+<img width="375" height="55" alt="Screenshot 2026-04-21 at 19 29 39" src="https://github.com/user-attachments/assets/05fad986-d13d-4822-a9e0-03c663443409" />
+
+* Bagian inti program.
+* Setiap putaran menghitung x3 baru menggunakan rumus Regula Falsi.
+* Semakin banyak iterasi, semakin mendekati akar yang sebenarnya.
 
 ### Perhitungan Error
-<img width="459" height="160" alt="image" src="https://github.com/user-attachments/assets/ed2ada9d-0da2-4910-b904-31f51122e9de" />
+
+<img width="306" height="99" alt="Screenshot 2026-04-21 at 19 30 05" src="https://github.com/user-attachments/assets/54ea850e-eff4-4c56-8dfb-4dc68cdf60c9" />
+
+* Mengukur seberapa besar perubahan x3 dibanding iterasi sebelumnya.
+* Semakin kecil errornya, semakin dekat ke akar yang sebenarnya.
+
+### Tampilkan Tabel
+
+<img width="749" height="41" alt="Screenshot 2026-04-21 at 19 30 29" src="https://github.com/user-attachments/assets/1f8ae1b8-1fe8-405b-90cf-9d953f4aba4c" />
+
+* Mencetak satu baris tabel untuk iterasi ke-i .
+* Lalu menyimpan data x1, x2, x3 untuk keperluan grafik nanti.
+
+### Update Interval
+
+<img width="171" height="117" alt="Screenshot 2026-04-21 at 19 30 57" src="https://github.com/user-attachments/assets/ac24e530-027d-4b1a-9e13-e52c1c3fa4ac" />
+
+* Memperbarui interval berdasarkan posisi akar. 
+* Kalau akar ada di kiri, x2 digeser ke x3.
+* Kalau di kanan, x1 digeser ke x3.
+* Lalu x3 disimpan sebagai pembanding iterasi berikutnya.
 
 ### Hasil Akhir
-<img width="550" height="45" alt="Screenshot 2026-04-14 at 16 10 20" src="https://github.com/user-attachments/assets/2344464a-a3b9-4768-bb54-e5cd18008c38" />
 
-### Grafik
-<img width="592" height="364" alt="Screenshot 2026-04-14 at 16 11 12" src="https://github.com/user-attachments/assets/3f64748e-d290-4c57-ba16-aa1074275353" />
+<img width="498" height="49" alt="Screenshot 2026-04-21 at 19 31 17" src="https://github.com/user-attachments/assets/86c74ca9-9572-4e71-9186-164d8d54909c" />
 
+* Setelah semua iterasi selesai, menampilkan estimasi akar terbaik yang didapat beserta nilai fungsinya.
+
+### Persiapan Grafik
+
+<img width="391" height="71" alt="Screenshot 2026-04-21 at 19 31 57" src="https://github.com/user-attachments/assets/6cf59a62-ec13-4568-a0c5-2a68505e23bf" />
+
+* Membuat 500 titik koordinat untuk menggambar kurva yang mulus.
+* Lalu menyiapkan kanvas/tampilan dengan dua grafik berdampingan.
+
+### Grafik Kiri
+
+<img width="424" height="126" alt="Screenshot 2026-04-21 at 19 32 30" src="https://github.com/user-attachments/assets/18b869c2-116b-433d-8e93-fcce95eb4d87" />
+
+* Menggambar kurva f(x) lengkap di grafik kiri.
+* Akan terlihat jelas di mana kurva memotong sumbu X, maka disitulah letak akarnya.
+
+### Grafik Kanan
+
+<img width="575" height="105" alt="Screenshot 2026-04-21 at 19 33 14" src="https://github.com/user-attachments/assets/18cd6405-185b-443c-9dab-39e266e390fc" />
+
+* Menggambar proses iterasi di grafik kanan.
+* Setiap iterasi ditampilkan dengan warna berbeda.
+* Sehingga terlihat bagaimana garis Regula Falsi semakin mendekati akar.
+
+### Tampilkan Grafik
+
+<img width="323" height="119" alt="Screenshot 2026-04-21 at 19 33 49" src="https://github.com/user-attachments/assets/d06849f4-f2bb-40a2-ba42-ec46272af4ea" />
+
+* Mengatur jarak antar grafik agar tidak tumpang tindih.
+* Lalu menampilkan kedua grafik ke layar.
 
 ## Cara Menjalankan
 
