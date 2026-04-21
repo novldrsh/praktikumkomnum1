@@ -40,6 +40,9 @@ beserta proses iterasinya secara visual.
 ### Proses Iterasi
 <img width="550" height="214" alt="Screenshot 2026-04-14 at 16 08 51" src="https://github.com/user-attachments/assets/673c71e9-5920-4ce8-8279-6a563df8fd0a" />
 
+### Perhitungan Error
+<img width="459" height="160" alt="image" src="https://github.com/user-attachments/assets/ed2ada9d-0da2-4910-b904-31f51122e9de" />
+
 ### Hasil Akhir
 <img width="550" height="45" alt="Screenshot 2026-04-14 at 16 10 20" src="https://github.com/user-attachments/assets/2344464a-a3b9-4768-bb54-e5cd18008c38" />
 
