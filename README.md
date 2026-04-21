@@ -166,7 +166,7 @@ dengan nilai f(1.5199) ≈ -0.008675 (mendekati 0).
 
     python3 praktikum1regulafalsi.py
 
-### 4. Input yang disarankan
+### 4. Contoh Input 
 
     x1 = 1
     x2 = 2
